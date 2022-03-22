@@ -20,3 +20,12 @@ Connect GND PIN to PIN1 on BMV
 #DO NOT CONNECT PIN4 TO 3.3V ON ESP8266 BOARD SINCE BMV CANNOT PROVIDE ENOUGH CURRENT TO RUN ESP!!!
 
 ![victron pinout](https://user-images.githubusercontent.com/42915702/133002595-a9e81e5d-dcbd-4e17-8de0-89d49331e5db.png)
+
+Input your credentials 
+
+const char* ssid = "";
+const char* password =  "";
+const char* mqttServer = "";
+const int mqttPort = 1883;
+const char* mqttUser = "";
+const char* mqttPassword = "";
